@@ -16,18 +16,25 @@ namespace DataStructuresinCharp
 
             
             push(6);
+            //Added 6 to the beginning of the linked list
 
             push(7);
+            //Added 7 to the beginning of the linked list
 
 
             push(1);
+            //Added 1 to the beginning of the linked list
+
+
 
             Console.WriteLine("Doubly Linked List:");
             printList(head);
 
             InsertAfter(head, 10);
+            //Added 10 after the first node of the linked list
 
             append(9);
+            //Added 9 to the end of the linked list
 
             Console.WriteLine("\nDoubly Linked List:");
             printList(head);

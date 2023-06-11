@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace DataStructuresinCharp
 {
-    public class Queues
+    public class Program
     {
         public static void Main()
         {

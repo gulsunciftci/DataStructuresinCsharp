@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 namespace DataStructuresinCharp
 {
-    public class DoublyLinkedList
+    public class Program
     {
 
         public static Node head;

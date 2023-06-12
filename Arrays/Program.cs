@@ -23,7 +23,7 @@
                 {"rize","trabzon ","samsun " },
                 {"izmir","muğla ","manisa " }
             };
-
+            Console.WriteLine("**********");
             PrintArrayIkiBoyutlu(strings);
 
         }

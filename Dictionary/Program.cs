@@ -22,7 +22,7 @@ namespace DataStructuresinCharp
             Console.WriteLine();
 
             My_dict1.Remove(1123);
-
+            Console.WriteLine("**********");
             foreach (KeyValuePair<int, string> ele1 in My_dict1)
             {
                 Console.WriteLine("{0} and {1}",
@@ -34,6 +34,7 @@ namespace DataStructuresinCharp
             Console.WriteLine(My_dict1.ContainsValue("to"));
 
             My_dict1.Clear();
+            Console.WriteLine("**********");
             foreach (KeyValuePair<int, string> ele1 in My_dict1)
             {
                 Console.WriteLine("{0} and {1}",
@@ -41,13 +42,12 @@ namespace DataStructuresinCharp
             }
             Console.WriteLine();
 
-
+            Console.WriteLine("**********");
             Dictionary<string, string> My_dict2 =
                     new Dictionary<string, string>(){
                                   {"a.1", "Dog"},
                                   {"a.2", "Cat"},
                                 {"a.3", "Pig"} };
-
             foreach (var ele2 in My_dict2.Keys)
             {
                 Console.WriteLine("{0} and {1}", ele2, My_dict2[ele2]);

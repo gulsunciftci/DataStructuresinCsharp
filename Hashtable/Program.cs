@@ -19,7 +19,7 @@ namespace DataStructuresinCharp
             {
                 Console.WriteLine("{0} and {1} ", ele1.Key, ele1.Value);
             }
-
+            Console.WriteLine("**********");
             my_hashtable1.Remove("A2");
 
             Console.WriteLine("Key and Value pairs from my_hashtable1:");
@@ -28,10 +28,12 @@ namespace DataStructuresinCharp
             {
                 Console.WriteLine("{0} and {1} ", ele1.Key, ele1.Value);
             }
+            Console.WriteLine("**********");
             Console.WriteLine(my_hashtable1.Contains("A3"));
             Console.WriteLine(my_hashtable1.ContainsValue("geeks"));
 
             my_hashtable1.Clear();
+            Console.WriteLine("**********");
             Console.WriteLine("Key and Value pairs from my_hashtable1:");
 
             foreach (DictionaryEntry ele1 in my_hashtable1)
@@ -45,7 +47,7 @@ namespace DataStructuresinCharp
                                           {2, 234},
                                         {3, 230.45},
                                          {4, null}};
-
+            Console.WriteLine("**********");
             Console.WriteLine("Key and Value pairs from my_hashtable2:");
 
             foreach (var ele2 in my_hashtable2.Keys)
